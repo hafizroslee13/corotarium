@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Corotarium.MainPage"
+             BackgroundImageSource="mainBG.png"
+             NavigationPage.HasNavigationBar="false">
+
+    <!--<StackLayout>-->
+    <ScrollView>
+
+        <StackLayout Padding="20" Spacing="10">
+
+            <Button Text="EMI Calculator"
+                    TextColor="Black" 
+                    BackgroundColor="#FFE1E1"
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="Center"
+                    WidthRequest="200"
+                    HeightRequest="60"
+                    Margin="0, 130, 15, 5"
+                    Clicked="OnCalculatorClicked"/>
+
+            <Button x:Name="newsButton" 
+                    Text="NEWS"
+                    TextColor="Black" 
+                    BackgroundColor="#FFE1E1"
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="Center"
+                    WidthRequest="200"
+                    HeightRequest="60"
+                    Margin="0, 20, 15, 5"
+                    />
+
+            <Button x:Name="financialButton" 
+                    Text="Financial Planner"
+                    TextColor="Black" 
+                    BackgroundColor="#FFE1E1"
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="Center"
+                    WidthRequest="200"
+                    HeightRequest="60"
+                    Margin="0, 20, 15, 5"
+                    />
+
+            <Button x:Name="interestButton"
+                    Text="Interest Menu"
+                    TextColor="Black" 
+                    BackgroundColor="#FFE1E1"
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="Center"
+                    WidthRequest="200"
+                    HeightRequest="60"
+                    Margin="0, 20, 15, 5"
+                    Clicked="OnInterestClicked"
+                    />
+
+            <Button x:Name="ecommButton"
+                    Text="E-Commserve"
+                    TextColor="Black" 
+                    BackgroundColor="#FFE1E1"
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="Center"
+                    WidthRequest="200"
+                    HeightRequest="60"
+                    Margin="0, 20, 15, 5"
+                    />
+
+            <Button x:Name="aboutButton"
+                    Text="About Application"
+                    TextColor="Black" 
+                    BackgroundColor="#FFE1E1"
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="Center"
+                    WidthRequest="200"
+                    HeightRequest="60"
+                    Margin="0, 20, 15, 5"
+                    Clicked="OnAboutClicked"
+                    />
+            
+        </StackLayout>
+    </ScrollView>
+    <!--</StackLayout>-->
+
+</ContentPage>

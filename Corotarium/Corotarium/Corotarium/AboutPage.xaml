@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Corotarium.AboutPage"
+             BackgroundImageSource="aboutBG.png"
+             NavigationPage.HasNavigationBar="false">
+
+    <ScrollView>
+        <StackLayout Padding="15">
+
+            <Label Margin="5,90,5,40" FontSize="30" FontAttributes="Bold" HorizontalTextAlignment="Center" TextColor="Black" Text="About Application"/>
+            <Label Margin="5,20,5,10" FontSize="15" HorizontalTextAlignment="Center" TextColor="Black" Text="Following the unprecedented impacts of CoViD-19 to the industry, capital growth on all sectors have been declining over the past few months since the outbreak began. This situation has led to the unemployment rate to skyrocket that left over millions of people left without jobs. Apart from that, many employers also announced the reduction of employees' monthly wages to ensure the sustainability of their business."/>
+            <Label Margin="5,10" FontSize="15" HorizontalTextAlignment="Center" TextColor="Black" Text="Corotarium is a mobile application that serves several functions in catering to this issue. One of it is the calculation of loanees' EMI values after resumption of installments with implications by moratorium. Other than that, this application also will update the users on the status and announcements by bank firms on the moratorium status. Besides, there are several other functions such as Financial Budget Planner, and Interest Menu that helps the users in planning their commitments post-pandemic time."/>
+
+        </StackLayout>
+    </ScrollView>
+
+
+</ContentPage>

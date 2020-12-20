@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Corotarium.InterestMenuPage"
+             BackgroundImageSource="mainBG.png">
+    
+    <ScrollView>
+        <StackLayout>
+
+            <Label Text="Interest Menu"
+                VerticalOptions="Center"
+                HorizontalOptions="Center"
+                Margin="5,90,5,20"
+                FontSize="Large"
+                FontAttributes="Bold"
+                TextColor="Black"/>
+
+            <Grid Padding="10,30,10,0">
+                <StackLayout Grid.Row="0" Grid.Column="0">
+                    <ImageButton Grid.Row="0" Grid.Column="0" Source="@/drawable/interest_property_button" Clicked="OnPropertyClicked" />
+                </StackLayout>
+
+                <StackLayout Grid.Row="0" Grid.Column="1">
+                    <ImageButton Grid.Row="0" Grid.Column="1" Source="@/drawable/interest_car_button" Clicked="OnCarClicked"/>
+                </StackLayout>
+
+                <StackLayout Grid.Row="1" Grid.Column="0">
+                    <ImageButton Grid.Row="1" Grid.Column="0" Source="@/drawable/interest_personal_button" Clicked="OnPersonalClicked"/>
+                </StackLayout>
+
+                <StackLayout Grid.Row="1" Grid.Column="1">
+                    <ImageButton Grid.Row="1" Grid.Column="1" Source="@/drawable/interest_credit_button" Clicked="OnCreditClicked"/>
+                </StackLayout>
+            </Grid>
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>

@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Corotarium.InterestPropertyPage"
+             BackgroundImageSource="mainBG.png"
+             NavigationPage.HasNavigationBar="false">
+
+    <StackLayout>
+
+        <Label Text="Property Loan Interest Menu" 
+               FontSize="20"
+               VerticalOptions="Center"
+               HorizontalOptions="Center"
+               HorizontalTextAlignment="Center"
+               Margin="0,80,0,20"
+               TextColor="Black"/>
+
+        <ScrollView>
+
+            <StackLayout Padding="20" Spacing="10">
+
+                <Button x:Name="allianceoneButton"
+                    Text="Alliance Bank = 4.15%"
+                    TextColor="Black" 
+                    BackgroundColor="#FFE1E1"
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="Center"
+                    WidthRequest="200"
+                    HeightRequest="60"
+                    CornerRadius="10"
+                    Margin="0, 20, 15, 5"
+                    Clicked="allianceoneButtonClicked"
+                    />
+
+                <Button x:Name="hsbcButton"
+                    Text="HSBC Bank = 3.50%"
+                    TextColor="Black" 
+                    BackgroundColor="#FFE1E1"
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="Center"
+                    WidthRequest="200"
+                    HeightRequest="60"
+                    CornerRadius="10"
+                    Margin="0, 20, 15, 5"
+                    Clicked="hsbcButtonClicked"
+                    />
+
+                <Button x:Name="rhbButton"
+                    Text="RHB Bank = 3.60%"
+                    TextColor="Black" 
+                    BackgroundColor="#FFE1E1"
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="Center"
+                    WidthRequest="200"
+                    HeightRequest="60"
+                    CornerRadius="10"
+                    Margin="0, 20, 15, 5"
+                    Clicked="rhbButtonClicked"
+                    />
+
+                <Button x:Name="bankrakyatButton"
+                    Text="Bank Rakyat = 3.18%"
+                    TextColor="Black" 
+                    BackgroundColor="#FFE1E1"
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="Center"
+                    WidthRequest="200"
+                    HeightRequest="60"
+                    CornerRadius="10"
+                    Margin="0, 20, 15, 5"
+                    Clicked="bankrakyatButtonClicked"
+                    />
+
+                <Button x:Name="ambankButton"
+                    Text="Ambank = 4.25%"
+                    TextColor="Black" 
+                    BackgroundColor="#FFE1E1"
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="Center"
+                    WidthRequest="200"
+                    HeightRequest="60"
+                    CornerRadius="10"
+                    Margin="0, 20, 15, 5"
+                    Clicked="ambankButtonClicked"
+                    />
+
+                <Button x:Name="affinButton"
+                    Text="Affin Bank = 3.51%"
+                    TextColor="Black" 
+                    BackgroundColor="#FFE1E1"
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="Center"
+                    WidthRequest="200"
+                    HeightRequest="60"
+                    CornerRadius="10"
+                    Margin="0, 20, 15, 5"
+                    Clicked="affinButtonClicked"
+                    />
+
+                <Button x:Name="uobButton"
+                    Text="UOB Bank = 3.24%"
+                    TextColor="Black" 
+                    BackgroundColor="#FFE1E1"
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="Center"
+                    WidthRequest="200"
+                    HeightRequest="60"
+                    CornerRadius="10"
+                    Margin="0, 20, 15, 5"
+                    Clicked="uobButtonClicked"
+                    />
+
+                <Button x:Name="maybankButton"
+                    Text="Maybank = 3.25%"
+                    TextColor="Black" 
+                    BackgroundColor="#FFE1E1"
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="Center"
+                    WidthRequest="200"
+                    HeightRequest="60"
+                    CornerRadius="10"
+                    Margin="0, 20, 15, 5"
+                    Clicked="maybankButtonClicked"
+                    />
+            </StackLayout>
+
+        </ScrollView>
+
+    </StackLayout>
+    
+
+</ContentPage>

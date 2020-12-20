@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "3mXGTSIXWkCOEvzRl9Gli0+Aoi1+GyTcZF+P21BU7wmnAbo9Sq41WrJ+ukIetAlbrgKLkw2vb11uILB7OghKpQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Hafiz Roslee\\source\\repos\\Corotarium\\Corotarium\\Corotarium\\Corotarium.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Hafiz Roslee\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Hafiz Roslee\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Hafiz Roslee\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Users\\Hafiz Roslee\\.nuget\\packages\\xamarin.forms\\4.8.0.1687\\xamarin.forms.4.8.0.1687.nupkg.sha512"
+  ],
+  "logs": []
+}

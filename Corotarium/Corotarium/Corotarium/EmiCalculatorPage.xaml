@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Corotarium.EmiCalculatorPage"
+             BackgroundImageSource="mainBG.png"
+             NavigationPage.HasNavigationBar="false">
+
+    <StackLayout Padding="20" Spacing="10">
+        <Label Text="Welcome to the"
+                VerticalOptions="Center"
+                HorizontalOptions="Center"
+                Margin="0,80,0,0"
+                FontSize="20" TextColor="Black"/>
+
+        <Label Text="EMI Calculator" 
+               FontAttributes="Bold" 
+               FontSize="40"
+               VerticalOptions="Center"
+               HorizontalOptions="Center"
+               Margin="0,0,0,20"
+               TextColor="Black"/>
+
+        <Grid Padding="0,10">
+            <Frame Padding="10"
+            BorderColor="#707070"
+            HasShadow="False">
+            <Entry x:Name="inputPrincipal" Placeholder="Enter Principal Amount (RM)" Keyboard="Numeric"/>
+            </Frame>
+            <Label Text=" Principal "
+            FontSize="15"
+            TextColor="#707070"
+            BackgroundColor="white"
+            HorizontalOptions="Start"
+            VerticalOptions="Start"
+            Margin="20,-10,0,0"/>
+        </Grid>
+
+        <Grid Padding="0,10">
+            <Frame Padding="10"
+            BorderColor="#707070"
+            HasShadow="False">
+            <Entry x:Name="inputInterest" Placeholder="Enter interest rate per annum (%)" Keyboard="Numeric"/>
+            </Frame>
+            <Label Text=" Interest "
+            FontSize="15"
+            TextColor="#707070"
+            BackgroundColor="white"
+            HorizontalOptions="Start"
+            VerticalOptions="Start"
+            Margin="20,-10,0,0"/>
+        </Grid>
+
+        <Grid Padding="0,10">
+            <Frame Padding="10"
+            BorderColor="#707070"
+            HasShadow="False">
+            <Entry x:Name="inputPeriod" Placeholder="Enter loan period (months)" Keyboard="Numeric"/>
+            </Frame>
+            <Label Text=" Period "
+            FontSize="15"
+            TextColor="#707070"
+            BackgroundColor="white"
+            HorizontalOptions="Start"
+            VerticalOptions="Start"
+            Margin="20,-10,0,0"/>
+        </Grid>
+
+        <Button x:Name="calculateButton" Text="Calculate" VerticalOptions="CenterAndExpand" HorizontalOptions="Center" WidthRequest="150" CornerRadius="40" BackgroundColor="DarkRed" TextColor="White" Clicked="OnCalculateEMI"/>
+        
+        <!--<StackLayout HorizontalOptions="Center">
+            <Label Text="Your EMI Result" HorizontalTextAlignment="Center" />
+            <Label x:Name="outputResult" Text="0.00" HorizontalTextAlignment="Center" FontAttributes="Bold" />
+        </StackLayout>-->
+        
+        <!--<StackLayout HorizontalOptions="Center">
+            <Label Text="Your EMI Result" HorizontalTextAlignment="Center" />
+            <Label x:Name="outputResult" Text="0.00" HorizontalTextAlignment="Center" FontAttributes="Bold" />
+        </StackLayout>-->
+        
+        <!--<Entry x:Name="inputPrincipal" Placeholder="Enter Principal Amount (RM)" Keyboard="Numeric" Margin="0,30,0,0"/>-->
+        <!--<Entry x:Name="inputInterest" Placeholder="Enter interest rate per annum (%)" Keyboard="Numeric" Margin="0,30,0,0"/>
+        <Entry x:Name="inputPeriod" Placeholder="Enter loan period (months)" Keyboard="Numeric" Margin="0,30,0,0"/>-->
+
+        
+    </StackLayout>
+    
+</ContentPage>
